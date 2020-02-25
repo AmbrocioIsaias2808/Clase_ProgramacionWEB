@@ -1,4 +1,8 @@
+
+parrafo1{
+  background-color: #66CC00; color:#333333; font-size: 18px;
+}
 p{
   color:red;
-  font-family: verdana;
+  font-family: verdana, Arial;
 }
