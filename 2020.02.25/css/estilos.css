@@ -1,13 +1,14 @@
 
 parrafo1{
-  background-color: #66CC00; color:#333333; font-size: 18px;
+  background-color: #66CC00; color:#333333; font-size: 18px;  font-family: verdana, Arial;
 }
 
 p{
-  background-color: #CCCCCC; color:#333333; font-size: 18px;
+ color:black; font-size: 18px;  font-family: verdana, Arial;
 }
 parrafo3{
   background-color:FF0000;
   color:white;
   font-family: verdana, Arial;
+  font-size: 18px;
 }
