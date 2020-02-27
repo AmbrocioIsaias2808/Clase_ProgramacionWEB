@@ -5,7 +5,7 @@
     <title>Listas ordenadas y listas desordenadas</title>
   </head>
   <body>
-  <p>Procedimiento para ingresar a la configuración</p>
+  <p>Procedimiento para ingresar a la configuración:</p>
   <ol>
     <h2>Ejemplo de lista ordenada</h2>
     <li>Encienda la computadora</li>
