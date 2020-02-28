@@ -4,12 +4,12 @@
     <title>Ejemplo del uso de marcadores - aprenderaprogramar.com</title>
   </head>
   <body>
-    <br>
     <a name="arriba"></a>
+    <br>
     En esta página pueder ir al <a href="#primero">primer</a> apartado, al <a href="#segundo">segundo</a> al <a href="#tercero">tercero</a>
 
     <a name="primero"> <h1>Primer Apartado</h1> </a>
-    Aquí tienes el primer apartado. Al pulsar sobre el enlace, el navegador habrá saltado a esta parte de la página. Quizá si todo entra en la pantalla no logres ver el efecto pero prueba poner más texto aquí o hacer zoom y conseguirás verlo.
+    <a href="http://www.itmatamoros.edu.mx" target="_blank">Página del tec</a>  Aquí tienes el primer apartado. Al pulsar sobre el enlace, el navegador habrá saltado a esta parte de la página. Quizá si todo entra en la pantalla no logres ver el efecto pero prueba poner más texto aquí o hacer zoom y conseguirás verlo.
     <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
