@@ -21,6 +21,9 @@
           <a class="dropdown-item" href="2020.02.19/formulario1.php">formulario 1</a>
           <a class="dropdown-item" href="2020.02.24/Ejercicio1u2.php">Ejercicio 1</a>
           <a class="dropdown-item" href="2020.02.25/Ejemplo2u2.php">Ejercicio 2</a>
+          <a class="dropdown-item" href="2020.02.27/Ejercicio3u2.php">Ejercicio 3</a>
+          <a class="dropdown-item" href="2020.02.28/Ejercicio4u2.php">Ejercicio 4</a>
+          <a class="dropdown-item" href="2020.03.02/Ejercicio5u2.php">Ejercicio 5</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
