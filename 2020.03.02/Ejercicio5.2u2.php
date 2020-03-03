@@ -9,7 +9,7 @@
       <tr align="center">
           <th> <img src="https://pbs.twimg.com/profile_images/1232589777842692098/-Z_kMKM__400x400.jpg" width="50" > </th>
           <th colspan="3">Tec. Nacional de Mexico</th>
-          <th> <img src="" alt=""> <img src="https://pbs.twimg.com/profile_images/1232589777842692098/-Z_kMKM__400x400.jpg" width="50" > </th>
+          <th> <img src="" alt=""> <img src="ISCLOGO.jpg" width="50" > </th>
       </tr>
       <tr align="center">
           <td>Lunes</td>
