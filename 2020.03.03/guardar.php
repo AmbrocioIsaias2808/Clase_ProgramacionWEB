@@ -11,20 +11,15 @@
   $resultado=mysqli_query($con,
     "INSERT INTO Visitante (Nombre, Apellidos, Email, Sexo, Fecha_Nacimiento) values ('$nombre', '$apellido', '$email', $sexo, '$fnacio')",
   );
-  echo "<script type='text/javascript'>
-    function redirect(){
-          window.location.href='Ejercicio8.php';
-    }
-  </script>";
 if($resultado)
     print "<script type='text/javascript'>
-                redirect();
+                window.location.href='Ejercicio8.php';
                 alert('Operación realizada con éxito');
 
             </script>";
 else
     print "<script>
-            redirect();
+            window.location.href='Ejercicio8.php';
             alert('Error Rotundo');
 
         </script>";
