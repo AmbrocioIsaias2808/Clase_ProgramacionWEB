@@ -17,6 +17,9 @@
           <label for="email">Email:</label>
           <input type="text" placeholder="Email" id="email" name="email" value=""/>
           <br><br>
+          <label for="fnacio">Email:</label>
+          <input type="date" class="form-control" id="fnacio" name="fnacio">
+          <br><br>
           <input type="radio" name="sexo" value="1">Varon</input>
           <br><br>
           <input type="radio" name="sexo" value="0">Mujer</input>
@@ -24,6 +27,8 @@
 
           <input type="submit" name="" value="Enviar">
           <input type="reset">
+
+
       </p>
     </form>
   </body>
