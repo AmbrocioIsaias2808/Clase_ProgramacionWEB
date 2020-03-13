@@ -27,6 +27,8 @@
           <a class="dropdown-item" href="2020.03.02/Ejercicio5.2u2.php">Tarea 1: Ejercicio 6</a>
           <a class="dropdown-item" href="2020.03.03/Ejercicio7.php">Ejercicio 7</a>
           <a class="dropdown-item" href="2020.03.03/Ejercicio8.php">Ejercicio 8</a>
+          <a class="dropdown-item" href="2020.03.11/index.html">Ejercicio 9</a>
+          <a class="dropdown-item" href="2020.03.13/Ejercicio10.php">Ejercicio 10</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
