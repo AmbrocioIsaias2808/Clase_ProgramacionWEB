@@ -1,0 +1,91 @@
+nav {
+	color: #999933;
+	min-width: 100%;
+	border: medium solid #999999;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  
+}
+
+
+nav ul li {
+  display:inline-block;
+  float: none;
+  white-space:nowrap;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color:#666;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFF;
+  background-color: #CCC;
+  transition: all .3s ease;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul li:hover>ul {
+  display: inherit;
+  transition: all .3s ease;
+}
+
+nav ul ul li {
+  min-width: 170px;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+*{ 
+   margin:auto;
+   padding:0cm;
+   
+}
+
+/*Estilos Generales*/
+.button {
+}
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 100%px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    
+    text-align: right;
+}
