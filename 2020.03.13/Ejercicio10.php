@@ -8,6 +8,6 @@
     </script>
   </head>
   <body>
-    <p>Parrafo de texto</p>
+    <p onclick="alert('Le di click al parrafo');">Parrafo de texto</p>
   </body>
 </html>

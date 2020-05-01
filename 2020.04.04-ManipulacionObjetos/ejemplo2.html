@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejemplo2</title>
+    <script type="text/javascript">
+        function nuevoFichero(){
+          var input = document.getElementsByTagName('input')[0];
+          var nuevoInput=input.cloneNode(true);
+          input.parentNode.appendChild(nuevoInput);
+        }
+    </script>
+  </head>
+  <body>
+    <table width="400">
+      <tr>
+        <td>
+            <form enctype="multipart/form-data">
+              <fieldset>
+                <legend>Adjuntar Archivos</legend>
+                <input type="file" name="ficheros[]" size="60"><br>
+              </fieldset>
+              <a href="javascript:nuevoFichero();">Adjuntar otro ficheros</a>
+              <input type="submit" name="Subir" value="Adjuntar">
+            </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center mt-2">Basic Excel</h1> <br>
+    <div class="row ml-3">
+          <div class="col-6">
+            <a href="javascript:addRow();" class="btn btn-success">Agregar Fila</a>
+            <a href="javascript:removeRow();" class="btn btn-danger ml-2">Eliminar Ultima fila</a>
+          </div>
+          <div class="col-6">
+            <h2>Row Count: <span id="num">1</span></h2>
+          </div>
+    </div>
+    <table border="1" width="95%" class="m-3">
+        <tr>
+          <td> <input type="text" name="" value="" placeholder="Celda" size="39"> </td>
+          <td> <input type="text" name="" value="" placeholder="Celda" size="39"> </td>
+          <td> <input type="text" name="" value="" placeholder="Celda" size="39"> </td>
+          <td> <input type="text" name="" value="" placeholder="Celda" size="39"> </td>
+        </tr>
+    </table>
+  </body>
+
+  <script type="text/javascript">
+    function addRow(){
+      var num= document.getElementsByTagName("tr").length;
+      var tr=document.getElementsByTagName('tr')[0];
+      var nuevoTr=tr.cloneNode(true);
+      tr.parentNode.appendChild(nuevoTr);
+      document.getElementById("num").innerHTML=num+1;
+    }
+
+    function removeRow(){
+      var num= document.getElementsByTagName("tr").length;
+
+      var tr=document.getElementsByTagName('tr')[num-1];
+      tr.parentNode.removeChild(tr);
+      document.getElementById("num").innerHTML=num-1;
+    }
+  </script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejemplo1</title>
+    <script type="text/javascript">
+      function nuevaFila(){
+        var tr=document.getElementsByTagName('tr')[0];
+        var nuevoTr=tr.cloneNode(true);
+        tr.parentNode.appendChild(nuevoTr);
+      }
+    </script>
+  </head>
+
+  <body>
+        <a href="javascript:nuevaFila();">Agregar Fila</a>
+    <table border="1" width="400">
+      <tr>
+        <td>Fila 0</td>
+      </tr>
+      <tr>
+        <td>Fila 1</td>
+      </tr>
+
+    </table>
+  </body>
+</html>
